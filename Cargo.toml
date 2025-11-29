@@ -1,0 +1,27 @@
+[package]
+name = "genesis-preflight"
+version = "0.1.0"
+edition = "2021"
+authors = ["Genesis Preflight Contributors"]
+description = "A zero-dependency CLI tool for validating and documenting scientific datasets in preparation for DOE Genesis Mission ingestion"
+license = "MIT"
+repository = "https://github.com/clay-good/genesis-preflight"
+homepage = "https://github.com/clay-good/genesis-preflight"
+documentation = "https://github.com/clay-good/genesis-preflight/blob/main/README.md"
+readme = "README.md"
+keywords = ["mission-genesis", "doe", "fair", "scientific-data", "validation"]
+categories = ["command-line-utilities", "science"]
+exclude = [
+    "tests/fixtures/*",
+    ".github/*",
+]
+
+[[bin]]
+name = "genesis-preflight"
+path = "src/main.rs"
+
+[lib]
+name = "genesis_preflight"
+path = "src/lib.rs"
+
+[dependencies]

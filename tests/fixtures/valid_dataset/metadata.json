@@ -1,0 +1,35 @@
+{
+  "name": "Valid Test Dataset",
+  "version": "1.0.0",
+  "description": "A fully compliant test dataset for integration testing",
+  "keywords": ["test", "validation", "fair"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Test User",
+      "email": "test@example.com",
+      "affiliation": "Test Organization"
+    }
+  ],
+  "created": "2024-01-15",
+  "updated": "2024-01-15",
+  "contact": {
+    "name": "Test User",
+    "email": "test@example.com"
+  },
+  "access": {
+    "type": "open"
+  },
+  "provenance": {
+    "collection_method": "Automated test data generation",
+    "collection_period": {
+      "start": "2024-01-15",
+      "end": "2024-01-15"
+    }
+  },
+  "files": {
+    "count": 1,
+    "total_size_bytes": 100,
+    "formats": ["CSV"]
+  }
+}
